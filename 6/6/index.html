@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Neptunus</title>
+    <meta name="generator" content="Scribes"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8"/>
+    <meta http-equiv="content-style-type" content="text/css"/>
+    
+    <style type="text/css">	
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font: 86% Arial, Verdana, "Trebuchet MS", sans-serif;
+    line-height: 18px; /* same line space between browsers */
+}
+
+#container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+#header {
+    width: 900px;
+    float: left;
+    text-align: right;
+    background-image: url('/neptunus_media/img/site/header_background.jpg');
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+img.logo {
+    float: left;
+}
+
+#languages {
+    padding-top: 30px;
+    float: right;
+    line-height: 0px;
+}
+
+#languages img {
+    border-width: 0px;
+    margin-left: 7px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#nav {
+    width: 900px;
+    border-top: 1px solid #414141;
+    border-bottom: 1px solid #414141;
+    float: left;
+    overflow: hidden;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 7px;
+    font-weight: bold;
+    font: 100% Arial, Verdana, "Trebuchet MS", sans-serif;
+    font-size: 0.9em;
+}
+
+#nav a {
+    text-align: center;
+}
+
+a.first {
+    background: transparent url('/neptunus_media/img/site/bg_button_first_a.png') no-repeat scroll top right;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-right: 0px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.first span {
+    background: transparent url('/neptunus_media/img/site/bg_button_first_span.png') no-repeat;
+    display: block;
+    line-height: 13px;
+    padding: 9px 0 9px 12px;
+}
+
+a.first:active {
+    background-position: bottom right;
+    color: #d7d7d7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.first:active span {
+    background-position: bottom left;
+    padding: 9px 0 9px 12px; /* push text down 1px */
+} 
+
+a.middle {
+    background: transparent url('/neptunus_media/img/site/bg_button_middle_a.png') no-repeat scroll top right;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-right: 0px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.middle span {
+    background: transparent url('/neptunus_media/img/site/bg_button_middle_span.png') no-repeat;
+    display: block;
+    line-height: 13px;
+    padding: 9px 0 9px 12px;
+}
+
+a.middle:active {
+    background-position: bottom right;
+    color: #d7d7d7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.middle:active span {
+    background-position: bottom left;
+    padding: 9px 0 9px 12px; /* push text down 1px */
+} 
+
+a.end {
+    background: transparent url('/neptunus_media/img/site/bg_button_end_a.png') no-repeat scroll top right;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-right: 0px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.end span {
+    background: transparent url('/neptunus_media/img/site/bg_button_end_span.png') no-repeat;
+    display: block;
+    line-height: 13px;
+    padding: 9px 0 9px 12px;
+}
+
+a.end:active {
+    background-position: bottom right;
+    color: #d7d7d7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.end:active span {
+    background-position: bottom left;
+    padding: 9px 0 9px 12px; /* push text down 1px */
+}
+
+.firstOn {
+    background: transparent url('/neptunus_media/img/site/onbg_button_first_a.png') no-repeat scroll top right;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-right: 0px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+.firstOn span {
+    background: transparent url('/neptunus_media/img/site/onbg_button_first_span.png') no-repeat;
+    display: block;
+    line-height: 13px;
+    padding: 9px 0 9px 12px;
+}
+
+.firstOn:active {
+    background-position: bottom right;
+    color: #d7d7d7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+.firstOn:active span {
+    background-position: bottom left;
+    padding: 9px 0 9px 12px; /* push text down 1px */
+} 
+
+.middleOn {
+    background: transparent url('/neptunus_media/img/site/onbg_button_middle_a.png') no-repeat scroll top right;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-right: 0px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+.middleOn span {
+    background: transparent url('/neptunus_media/img/site/onbg_button_middle_span.png') no-repeat;
+    display: block;
+    line-height: 13px;
+    padding: 9px 0 9px 12px;
+}
+
+.middleOn:active {
+    background-position: bottom right;
+    color: #d7d7d7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+.middleOn:active span {
+    background-position: bottom left;
+    padding: 9px 0 9px 12px; /* push text down 1px */
+} 
+
+.endOn {
+    background: transparent url('/neptunus_media/img/site/onbg_button_end_a.png') no-repeat scroll top right;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-right: 0px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+.endOn span {
+    background: transparent url('/neptunus_media/img/site/onbg_button_end_span.png') no-repeat;
+    display: block;
+    line-height: 13px;
+    padding: 9px 0 9px 12px;
+}
+
+.endOn:active {
+    background-position: bottom right;
+    color: #d7d7d7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+.endOn:active span {
+    background-position: bottom left;
+    padding: 9px 0 9px 12px; /* push text down 1px */
+} 
+
+
+
+#cutting {
+    background: none;
+    display: block;
+    line-height: 13px;
+    padding: 0;
+    color: red;
+}
+
+
+
+#content {
+    width: 900px;
+    float: left;
+    color: #3d757c;
+}
+
+#footer {
+    width: 900px;
+    height: 16px;
+    border-top: 1px solid #414141;
+    float: left;
+    text-align: justify;
+    font-size: 1em;
+    color: #3d757c;
+    padding-top: 2px;
+    font: 100% Arial, Verdana, "Trebuchet MS", sans-serif;
+    font-size: 0.8em;
+}
+
+/* typography
+----------------------------------------------- */
+
+p {	margin-bottom: 1.0em; font-size: 1.0em;}
+p {text-indent: 14px;}
+
+ol, ul{ margin: 0.5em 0 1.2em 2em; }	
+ol, ul, dl { line-height: 1.4em; }
+ol li{ margin-bottom: 0.2em; }
+li{ font-size: 0.9em; }
+li strong {color: #999;}
+dl{ margin: 0.5em 0 1.2em 0; }
+dt{
+	font-weight: bold; color: #999;
+	padding-top: 0.4em;
+	}
+dd{	
+	font-size: 0.9em;
+	margin-bottom: 1.0em;
+	padding-bottom: 0.9em;
+	border-bottom: 1px dashed #3d3d33;
+	}
+
+
+h1, h2, h3{ font-family: Arial, Verdana, "Trebuchet MS", Sans-Serif;}
+
+h1 { font-size: 2.2em; color: #93bac9; }
+h1 a { color:#fff; border: none; }
+h1 em{ font-size: 1.25em; color: #D0EB6A; font-style: normal; }
+
+h2 {
+	font-size: 1.4em;
+	letter-spacing: 0.4pt;
+	/*padding-top: 0.5em;*/
+	color: #93bac9;
+	}
+h3 {
+	font-size: 1.0em;
+	letter-spacing: 0.2pt;
+	/*padding-top: 0.5em;*/
+	color: #93bac9;
+	}
+	
+/* IE FIX */
+table {
+    color: #3d757c;
+    font-size: 1.0em;
+    text-align: justify;
+}
+
+
+.plyr__controls__item.plyr__menu,
+.plyr__controls__item.plyr__control {
+	display: none !important;
+}
+
+div.plyr > div.plyr__controls > button.plyr__controls__item.plyr__control:first-of-type {
+	display: inline-block !important;
+}
+
+    </style>
+    
+    
+    
+    <style type="text/css">
+    /* PAGE EXTRA CSS */
+        #box1 {
+    width: 754px;
+    font-size: 1.2em;
+}
+
+#box1 .same {
+    margin-bottom: 45px;
+}
+
+#box1 img {
+    margin-bottom: 18px;
+}
+
+#content {
+    padding-top: 34px;
+    padding-bottom: 10px;
+}
+
+#table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+#table{
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+#table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+#table th {
+  font-weight: bold;
+}
+
+#table th,
+#table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+#table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+#table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}	
+    </style>
+    
+    
+    <style type="text/css">
+    /* Template CSS */
+    
+    
+    
+    </style>
+    
+    <style type="text/css">
+    /* Language CSS */
+    
+    
+    
+    
+    </style>
+    
+    
+    <script type="text/javascript" src="/neptunus_media/js/getElementsByClassName.js"></script>
+    <script type="text/javascript" src="/neptunus_media/js/jquery.js"></script>
+    <script type="text/javascript" src="/neptunus_media/js/embeddedcontent.js" defer="defer"></script>
+    <script type="text/javascript" src="/neptunus_media/js/browserD.js"></script>
+    <script type="text/javascript" src="/neptunus_media/js/swfobject.js"></script>
+<script src="/cdn/plyr.polyfilled.js"></script>
+<link rel="stylesheet" href="/cdn/plyr.css" />
+<script type="text/javascript"> 
+    var flashvarsCM = {};
+    flashvarsCM.file = "/neptunus_media/newcuttplaylist.xml";
+    flashvarsCM.controlbar = "over";
+    flashvarsCM.autostart = "false";
+    flashvarsCM.bufferlength = "10";
+    var paramsCM = {};
+    paramsCM.allowfullscreen = "true";
+    var attributesCM = {};
+    attributesCM.id = "myFlashContentCM";
+    swfobject.embedSWF("/sameDomain6/player.swf", "myAlternativeContentCM", "610", "344", "9.0.0", false, flashvarsCM, paramsCM, attributesCM);
+</script> 
+
+    <script type="text/javascript"> 
+        $(document).ready( function () {
+            //$("#content").hide();
+            //$("#content").fadeIn("slow");
+            
+            /*function thisFlash(flashName) { 
+                var isIE = navigator.appName.indexOf("Microsoft") != -1; 
+                return (isIE) ? window[flashName] : document[flashName]; 
+            }
+            
+            $("#VC1CM").click( function() {
+                if (swfobject.getObjectById("myFlashContentCM")) {
+                    swfobject.getObjectById("myFlashContentCM").sendEvent('ITEM',0);
+                } else {
+                    thisFlash("methodVideoAC2CM").changeVideo("/neptunus_media/video/gallery/newcutt1.mp4");
+                }
+            });
+        
+            $("#VC2CM").click( function() {
+                if (swfobject.getObjectById("myFlashContentCM")) {
+                    swfobject.getObjectById("myFlashContentCM").sendEvent('ITEM',1);
+                } else {
+                    thisFlash("methodVideoAC2CM").changeVideo("/neptunus_media/video/gallery/newcutt2.mp4");
+                }
+            });
+        
+            $("#VC3CM").click( function() {
+                if (swfobject.getObjectById("myFlashContentCM")) {
+                    swfobject.getObjectById("myFlashContentCM").sendEvent('ITEM',2);
+                } else {
+                    thisFlash("methodVideoAC2CM").changeVideo("/neptunus_media/video/gallery/newcutt3.mp4"); 
+                }
+            });
+            
+            $("#VC4CM").click( function() {
+                if (swfobject.getObjectById("myFlashContentCM")) {
+                    swfobject.getObjectById("myFlashContentCM").sendEvent('ITEM',3);
+                } else {
+                    thisFlash("methodVideoAC2CM").changeVideo("/neptunus_media/video/gallery/newcutt4.mp4"); 
+                }
+            });
+ 
+        });*/
+
+var player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+            $("#VC1CM").click( function() {
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt1.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt1.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.play();
+            });
+
+            $("#VC2CM").click( function() {
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt2.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt2.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.play();
+            });
+
+            $("#VC3CM").click( function() {
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt3.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt3.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.play();
+            });
+
+            $("#VC4CM").click( function() {
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt4.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt4.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.play();
+                //console.log("/neptunus_media/video/spages/1000.flv")
+		});
+});
+    </script> 
+
+    
+    
+    <script type="text/javascript">
+        $(document).ready( function () {
+            //$("#content").hide();
+            //$("#content").fadeIn("slow");
+            
+            
+        });
+    </script>
+
+    
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            
+            <img class="logo" src="/neptunus_media/img/logos/logo2_.png" style="height:48px; width:253px;" />
+            <div id="languages"><a href='/1/6/'><img src='/neptunus_media/img/flags/united_kingdom.png' style='height:18px; width:24px;' /></a><a href='/5/6/'><img src='/neptunus_media/img/flags/Flag_of_France.png' style='height:18px; width:27px;' /></a><a href='/6/6/'><img src='/neptunus_media/img/flags/icelandic-flag.png' style='height:18px; width:24px;' /></a><a href='/3/6/'><img src='/neptunus_media/img/flags/spain.png' style='height:18px; width:25px;' /></a></div>
+            
+        </div>
+        
+        <div id="nav">
+            
+            <a class='first' href='/6/1/'><span>Heim</span></a><a class='middle' href='/6/10/'><span>NÝTT Afskurðarvél</span></a><a class='middle' href='/6/2/'><span>Nýa Aðferðin</span></a><a class='middle' href='/6/3/'><span>Netin Okkar</span></a><a class='middle' href='/6/9/'><span>Netin Okkar Eftir Notkun</span></a><a class='middle' href='/6/5/'><span>Kostirnir</span></a><a class='middle' href='/6/4/'><span>Viðskiptavinir</span></a><a class='endOn' href='/6/6/'><span>Um Okkur</span></a>
+            
+        </div>
+        <script type="text/javascript">
+            $("span:contains('NEW Cutting Machine')").html("<a style='color: red;'>NEW</a> Cutting Machine");
+            $("span:contains('NÝTT Afskurðarvél')").html("<a style='color: red;'>NÝTT</a> Afskurðarvél");
+
+            buttonsLength = 0;
+            numberOfButtons = 0;
+            firstIs = false;
+            middleIs = false;
+            endIs = false;
+            firstOnIs = false;
+            middleOnIs = false;
+            endOnIs = false;
+            
+            x = getElementsByClassName("first");
+            if (x.length > 0) {
+                buttonsLength = buttonsLength + x[0].offsetWidth;
+                numberOfButtons = 1;
+                firstIs = true;
+            }
+            
+            x = getElementsByClassName("firstOn");
+            if (x.length > 0) {
+                buttonsLength = buttonsLength + x[0].offsetWidth;
+                numberOfButtons = numberOfButtons + 1;
+                firstOnIs = true;
+            }
+            
+            x = getElementsByClassName("middle");
+            if (x.length > 0) {
+                middleIs = true;
+                for (y in x) {
+                    buttonsLength = buttonsLength + x[y].offsetWidth;
+                    numberOfButtons = numberOfButtons + 1;
+                }
+            }
+            
+            x = getElementsByClassName("middleOn");
+            if (x.length > 0) {
+                buttonsLength = buttonsLength + x[0].offsetWidth;
+                numberOfButtons = numberOfButtons + 1;
+                middleOnIs = true;
+            }
+
+            x = getElementsByClassName("end");
+            if (x.length > 0) {
+                buttonsLength = buttonsLength + x[0].offsetWidth;
+                numberOfButtons = numberOfButtons + 1;
+                endIs = true;
+            }
+            
+            x = getElementsByClassName("endOn");
+            if (x.length > 0) {
+                buttonsLength = buttonsLength + x[0].offsetWidth;
+                numberOfButtons = numberOfButtons + 1;
+                endOnIs = true;
+            }
+            
+            spaceOrWidth = (900 - buttonsLength) / numberOfButtons;
+            spaceOrWidth = Math.floor(spaceOrWidth);
+            
+            var bn = BrowserDetect.browser;
+            if(bn == "Explorer") {
+                var nb = BrowserDetect.version;
+                if(nb == 6) {
+                    ie6 = true;
+                } else {
+                    ie6 = false;
+                }
+            } else {
+                ie6 = false;
+            }
+            
+            var sButtonsLength = 0;
+            if (ie6 == false) {
+                if (firstIs == true) {
+                    x = getElementsByClassName("first");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth - 12) + "px";
+                    sButtonsLength = parseInt(x[0].style.width) + 12;
+                }
+                
+                if (firstOnIs == true) {
+                    x = getElementsByClassName("firstOn");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth - 12) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width) + 12;
+                }
+    
+                if (middleIs == true) {
+                    x = getElementsByClassName("middle");
+                    for (y in x) {
+                        x[y].style.width = String(x[y].offsetWidth + spaceOrWidth - 12) + "px";
+                        sButtonsLength = sButtonsLength + parseInt(x[y].style.width) + 12;
+                    }
+                }
+                
+                if (middleOnIs == true) {
+                    x = getElementsByClassName("middleOn");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth - 12) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width) + 12;
+                }
+                
+                if (endIs == true) {
+                    x = getElementsByClassName("end");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth - 12) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width) + 12;
+                }
+                
+                if (endOnIs == true) {
+                    x = getElementsByClassName("endOn");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth - 12) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width) + 12;
+                }
+            } else {
+                if (firstIs == true) {
+                    x = getElementsByClassName("first");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth) + "px";
+                    sButtonsLength = parseInt(x[0].style.width);
+                }
+                
+                if (firstOnIs == true) {
+                    x = getElementsByClassName("firstOn");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width);
+                }
+    
+                if (middleIs == true) {
+                    x = getElementsByClassName("middle");
+                    for (y in x) {
+                        x[y].style.width = String(x[y].offsetWidth + spaceOrWidth) + "px";
+                        sButtonsLength = sButtonsLength + parseInt(x[y].style.width);
+                    }
+                }
+                
+                if (middleOnIs == true) {
+                    x = getElementsByClassName("middleOn");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width);
+                }
+                
+                if (endIs == true) {
+                    x = getElementsByClassName("end");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width);
+                }
+                
+                if (endOnIs == true) {
+                    x = getElementsByClassName("endOn");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width);
+                }
+            }
+            
+            if (ie6 == false) {
+                sSpaceOrWidth = 900 - sButtonsLength;
+            } else {
+                sSpaceOrWidth = 900 - sButtonsLength - 3;
+            }
+            x = getElementsByClassName("endOn");
+            if (x.length > 0) {
+                x[0].style.width = String(parseInt(x[0].style.width) + sSpaceOrWidth) + "px";
+            } else {
+                x = getElementsByClassName("end");
+                x[0].style.width = String(parseInt(x[0].style.width) + sSpaceOrWidth) + "px";
+            }
+        </script>
+        
+        
+        <div id="content">
+            
+            
+            <div id="box1">
+<img src="/neptunus_media/img/gallery/fyrirtaekid.jpg" border="0" />
+<p>Neptúnus er með yfir þrjátíu ára reynslu á sviði netaveiða. Við seljum net bæði frá Kína og Tælandi.</p>
+<p>Við höfum alltaf verið að reyna að skapa nýjungar fyrir markaðinn. Bæði fyrir fiskvinnslu og netaveiðar. Flotteinnin eins og við þekkjum hann í dag var fyrst framleiddur af okkur árið 1978, og í fjöldaframleiðslu árið 1980.</p>
+
+<img src="/neptunus_media/img/gallery/uppfynningin.jpg" border="0" />
+<p>Nýja fellingin okkar var í þróun í fimm ár. Hún hefur hlotið frábærar viðtökur frá viðskiptavinum okkar. Aðferðin hefur haslað sér völl í Skandinavíu og víðar í Evrópu síðustu árin, og kúnnahópurinn stækkar ört. </p>
+<p>Við erum með einkaleyfi á hugmyndinni.</p>
+</div>
+        </div>
+        
+        <div id="footer" style="">
+            
+                Neptunus ehf. - Cuxhavengötu 1 - 220 Hafnarfirði - 101 Reykjavík - Ísland - Sími:552-1380 - Gemsi:864-4343 - e-mail:xneptun@simnet.is
+            
+            <span style="visibility: hidden">
+                ####################################################################
+            </span>
+        </div>
+    </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5377413-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

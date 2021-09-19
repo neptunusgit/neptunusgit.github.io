@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Neptunus</title>
+    <meta name="generator" content="Scribes"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8"/>
+    <meta http-equiv="content-style-type" content="text/css"/>
+    
+    <style type="text/css">	
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font: 86% Arial, Verdana, "Trebuchet MS", sans-serif;
+    line-height: 18px; /* same line space between browsers */
+}
+
+#container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+#header {
+    width: 900px;
+    float: left;
+    text-align: right;
+    background-image: url('/neptunus_media/img/site/header_background.jpg');
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+img.logo {
+    float: left;
+}
+
+#languages {
+    padding-top: 30px;
+    float: right;
+    line-height: 0px;
+}
+
+#languages img {
+    border-width: 0px;
+    margin-left: 7px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#nav {
+    width: 900px;
+    border-top: 1px solid #414141;
+    border-bottom: 1px solid #414141;
+    float: left;
+    overflow: hidden;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 7px;
+    font-weight: bold;
+    font: 100% Arial, Verdana, "Trebuchet MS", sans-serif;
+    font-size: 0.9em;
+}
+
+#nav a {
+    text-align: center;
+}
+
+a.first {
+    background: transparent url('/neptunus_media/img/site/bg_button_first_a.png') no-repeat scroll top right;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-right: 0px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.first span {
+    background: transparent url('/neptunus_media/img/site/bg_button_first_span.png') no-repeat;
+    display: block;
+    line-height: 13px;
+    padding: 9px 0 9px 12px;
+}
+
+a.first:active {
+    background-position: bottom right;
+    color: #d7d7d7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.first:active span {
+    background-position: bottom left;
+    padding: 9px 0 9px 12px; /* push text down 1px */
+} 
+
+a.middle {
+    background: transparent url('/neptunus_media/img/site/bg_button_middle_a.png') no-repeat scroll top right;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-right: 0px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.middle span {
+    background: transparent url('/neptunus_media/img/site/bg_button_middle_span.png') no-repeat;
+    display: block;
+    line-height: 13px;
+    padding: 9px 0 9px 12px;
+}
+
+a.middle:active {
+    background-position: bottom right;
+    color: #d7d7d7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.middle:active span {
+    background-position: bottom left;
+    padding: 9px 0 9px 12px; /* push text down 1px */
+} 
+
+a.end {
+    background: transparent url('/neptunus_media/img/site/bg_button_end_a.png') no-repeat scroll top right;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-right: 0px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.end span {
+    background: transparent url('/neptunus_media/img/site/bg_button_end_span.png') no-repeat;
+    display: block;
+    line-height: 13px;
+    padding: 9px 0 9px 12px;
+}
+
+a.end:active {
+    background-position: bottom right;
+    color: #d7d7d7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.end:active span {
+    background-position: bottom left;
+    padding: 9px 0 9px 12px; /* push text down 1px */
+}
+
+.firstOn {
+    background: transparent url('/neptunus_media/img/site/onbg_button_first_a.png') no-repeat scroll top right;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-right: 0px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+.firstOn span {
+    background: transparent url('/neptunus_media/img/site/onbg_button_first_span.png') no-repeat;
+    display: block;
+    line-height: 13px;
+    padding: 9px 0 9px 12px;
+}
+
+.firstOn:active {
+    background-position: bottom right;
+    color: #d7d7d7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+.firstOn:active span {
+    background-position: bottom left;
+    padding: 9px 0 9px 12px; /* push text down 1px */
+} 
+
+.middleOn {
+    background: transparent url('/neptunus_media/img/site/onbg_button_middle_a.png') no-repeat scroll top right;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-right: 0px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+.middleOn span {
+    background: transparent url('/neptunus_media/img/site/onbg_button_middle_span.png') no-repeat;
+    display: block;
+    line-height: 13px;
+    padding: 9px 0 9px 12px;
+}
+
+.middleOn:active {
+    background-position: bottom right;
+    color: #d7d7d7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+.middleOn:active span {
+    background-position: bottom left;
+    padding: 9px 0 9px 12px; /* push text down 1px */
+} 
+
+.endOn {
+    background: transparent url('/neptunus_media/img/site/onbg_button_end_a.png') no-repeat scroll top right;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-right: 0px;
+    padding-right: 12px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+.endOn span {
+    background: transparent url('/neptunus_media/img/site/onbg_button_end_span.png') no-repeat;
+    display: block;
+    line-height: 13px;
+    padding: 9px 0 9px 12px;
+}
+
+.endOn:active {
+    background-position: bottom right;
+    color: #d7d7d7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+.endOn:active span {
+    background-position: bottom left;
+    padding: 9px 0 9px 12px; /* push text down 1px */
+} 
+
+
+
+#cutting {
+    background: none;
+    display: block;
+    line-height: 13px;
+    padding: 0;
+    color: red;
+}
+
+
+
+#content {
+    width: 900px;
+    float: left;
+    color: #3d757c;
+}
+
+#footer {
+    width: 900px;
+    height: 16px;
+    border-top: 1px solid #414141;
+    float: left;
+    text-align: justify;
+    font-size: 1em;
+    color: #3d757c;
+    padding-top: 2px;
+    font: 100% Arial, Verdana, "Trebuchet MS", sans-serif;
+    font-size: 0.8em;
+}
+
+/* typography
+----------------------------------------------- */
+
+p {	margin-bottom: 1.0em; font-size: 1.0em;}
+p {text-indent: 14px;}
+
+ol, ul{ margin: 0.5em 0 1.2em 2em; }	
+ol, ul, dl { line-height: 1.4em; }
+ol li{ margin-bottom: 0.2em; }
+li{ font-size: 0.9em; }
+li strong {color: #999;}
+dl{ margin: 0.5em 0 1.2em 0; }
+dt{
+	font-weight: bold; color: #999;
+	padding-top: 0.4em;
+	}
+dd{	
+	font-size: 0.9em;
+	margin-bottom: 1.0em;
+	padding-bottom: 0.9em;
+	border-bottom: 1px dashed #3d3d33;
+	}
+
+
+h1, h2, h3{ font-family: Arial, Verdana, "Trebuchet MS", Sans-Serif;}
+
+h1 { font-size: 2.2em; color: #93bac9; }
+h1 a { color:#fff; border: none; }
+h1 em{ font-size: 1.25em; color: #D0EB6A; font-style: normal; }
+
+h2 {
+	font-size: 1.4em;
+	letter-spacing: 0.4pt;
+	/*padding-top: 0.5em;*/
+	color: #93bac9;
+	}
+h3 {
+	font-size: 1.0em;
+	letter-spacing: 0.2pt;
+	/*padding-top: 0.5em;*/
+	color: #93bac9;
+	}
+	
+/* IE FIX */
+table {
+    color: #3d757c;
+    font-size: 1.0em;
+    text-align: justify;
+}
+
+
+.plyr__controls__item.plyr__menu,
+.plyr__controls__item.plyr__control {
+	display: none !important;
+}
+
+div.plyr > div.plyr__controls > button.plyr__controls__item.plyr__control:first-of-type {
+	display: inline-block !important;
+}
+
+    </style>
+    
+    
+    
+    <style type="text/css">
+    /* PAGE EXTRA CSS */
+    	
+    </style>
+    
+    
+    <style type="text/css">
+    /* Template CSS */
+    
+        /* NETS CSS */
+        
+            /* Line 1 */
+        #box1 {
+            width: 274px;
+            float: left;
+        }
+        
+        #box1 img {
+            padding: 1px;
+            border: 1px solid #000000;
+        }
+        
+        #box1 img.title {
+            padding: 0px;
+            border: 0px solid #000000;
+        }
+        
+        #netsVideoC {
+            padding: 1px;
+            border: 1px solid #000000;
+            float: left;
+        }
+
+        #netsVideoC object {
+            display: block;
+        }
+
+        #netsVideoC img {
+            display: block;
+            border: 0px solid #000000;
+            padding: 0px;
+        }
+        
+        #box2 {
+            float: right;
+            width: 560px;
+        }
+        
+        #box2 p {
+            text-indent: 0px;
+        }
+        
+        #box2 img.image3 {
+            float: right;
+            margin-left: 7px;
+        }
+        
+        #box2 img.image4 {
+            float: right;
+            margin-left: 7px;
+            margin-bottom: 7px;
+            clear: both;
+        }
+        
+        #box2 img.image5 {
+            float: right;
+            margin-left: 7px;
+            clear: both;
+        }
+        
+        #box2 p {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        #box2 img.title2 {
+            margin-left: 9px;
+        }
+        
+        #content {
+            padding-top: 18px;
+            padding-bottom: 10px;
+        }
+
+.plyr--video.plyr--stopped .plyr__controls { display: none; }
+.plyr__controls { display: none !important; } 
+
+    </style>
+    
+    <style type="text/css">
+    /* Language CSS */
+    
+    #footer {
+       font-size: 0.7em;
+    }
+    
+    
+
+        #netsVideoC {
+            margin-top: 50px;
+        }
+        
+        img.netIMG {
+            margin-top: 50px;
+        }
+
+
+
+    </style>
+    
+    
+    <script type="text/javascript" src="/neptunus_media/js/getElementsByClassName.js"></script>
+    <script type="text/javascript" src="/neptunus_media/js/jquery.js"></script>
+    <script type="text/javascript" src="/neptunus_media/js/embeddedcontent.js" defer="defer"></script>
+    <script type="text/javascript" src="/neptunus_media/js/browserD.js"></script>
+    <script type="text/javascript" src="/neptunus_media/js/swfobject.js"></script>
+<script src="/cdn/plyr.polyfilled.js"></script>
+<link rel="stylesheet" href="/cdn/plyr.css" />
+<script type="text/javascript"> 
+    var flashvarsCM = {};
+    flashvarsCM.file = "/neptunus_media/newcuttplaylist.xml";
+    flashvarsCM.controlbar = "over";
+    flashvarsCM.autostart = "false";
+    flashvarsCM.bufferlength = "10";
+    var paramsCM = {};
+    paramsCM.allowfullscreen = "true";
+    var attributesCM = {};
+    attributesCM.id = "myFlashContentCM";
+    swfobject.embedSWF("/sameDomain6/player.swf", "myAlternativeContentCM", "610", "344", "9.0.0", false, flashvarsCM, paramsCM, attributesCM);
+</script> 
+
+    <script type="text/javascript"> 
+        $(document).ready( function () {
+            //$("#content").hide();
+            //$("#content").fadeIn("slow");
+            
+            /*function thisFlash(flashName) { 
+                var isIE = navigator.appName.indexOf("Microsoft") != -1; 
+                return (isIE) ? window[flashName] : document[flashName]; 
+            }
+            
+            $("#VC1CM").click( function() {
+                if (swfobject.getObjectById("myFlashContentCM")) {
+                    swfobject.getObjectById("myFlashContentCM").sendEvent('ITEM',0);
+                } else {
+                    thisFlash("methodVideoAC2CM").changeVideo("/neptunus_media/video/gallery/newcutt1.mp4");
+                }
+            });
+        
+            $("#VC2CM").click( function() {
+                if (swfobject.getObjectById("myFlashContentCM")) {
+                    swfobject.getObjectById("myFlashContentCM").sendEvent('ITEM',1);
+                } else {
+                    thisFlash("methodVideoAC2CM").changeVideo("/neptunus_media/video/gallery/newcutt2.mp4");
+                }
+            });
+        
+            $("#VC3CM").click( function() {
+                if (swfobject.getObjectById("myFlashContentCM")) {
+                    swfobject.getObjectById("myFlashContentCM").sendEvent('ITEM',2);
+                } else {
+                    thisFlash("methodVideoAC2CM").changeVideo("/neptunus_media/video/gallery/newcutt3.mp4"); 
+                }
+            });
+            
+            $("#VC4CM").click( function() {
+                if (swfobject.getObjectById("myFlashContentCM")) {
+                    swfobject.getObjectById("myFlashContentCM").sendEvent('ITEM',3);
+                } else {
+                    thisFlash("methodVideoAC2CM").changeVideo("/neptunus_media/video/gallery/newcutt4.mp4"); 
+                }
+            });
+ 
+        });*/
+
+var player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+            $("#VC1CM").click( function() {
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt1.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt1.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.play();
+            });
+
+            $("#VC2CM").click( function() {
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt2.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt2.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.play();
+            });
+
+            $("#VC3CM").click( function() {
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt3.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt3.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.play();
+            });
+
+            $("#VC4CM").click( function() {
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt4.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.destroy();
+                $("#player_base source").attr("src", "/neptunus_media/video/gallery/newcutt4.mp4.m4v");
+                player_base = new Plyr('#player_base', {fullscreen: {enabled: false}});
+
+                player_base.play();
+                //console.log("/neptunus_media/video/spages/1000.flv")
+		});
+});
+    </script> 
+
+    
+<script type="text/javascript">
+    var flashvars = {};
+    flashvars.file = "/neptunus_media/video/spages/netsnew_2.mp4";
+    flashvars.controlbar = "none";
+    flashvars.image = "/sameDomain6/nets.jpg";
+    flashvars.bufferlength = "10";
+    var params = {};
+    params.allowfullscreen = "true";
+    var attributes = {};
+    attributes.id = "myFlashContent";
+    attributes.name = "myFlashContent";
+    swfobject.embedSWF("/sameDomain6/player.swf", "myAlternativeContent", "270", "152", "9.0.0", false, flashvars, params, attributes);
+</script>
+
+    <script type="text/javascript">
+        $(document).ready( function () {
+            //$("#content").hide();
+            //$("#content").fadeIn("slow");
+            
+            
+        });
+    </script>
+
+    
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            
+            <img class="logo" src="/neptunus_media/img/logos/logo2_.png" style="height:48px; width:253px;" />
+            <div id="languages"><a href='/1/3/'><img src='/neptunus_media/img/flags/united_kingdom.png' style='height:18px; width:24px;' /></a><a href='/5/3/'><img src='/neptunus_media/img/flags/Flag_of_France.png' style='height:18px; width:27px;' /></a><a href='/6/3/'><img src='/neptunus_media/img/flags/icelandic-flag.png' style='height:18px; width:24px;' /></a><a href='/3/3/'><img src='/neptunus_media/img/flags/spain.png' style='height:18px; width:25px;' /></a></div>
+            
+        </div>
+        
+        <div id="nav">
+            
+            <a class='first' href='/3/1/'><span>Portada</span></a><a class='middle' href='/3/2/'><span>El Nuevo Método</span></a><a class='middleOn' href='/3/3/'><span>Nuestras Redes</span></a><a class='middle' href='/3/5/'><span>Los Beneficios</span></a><a class='middle' href='/3/4/'><span>Nuestros Clientes</span></a><a class='end' href='/3/6/'><span>Sobre Nosotros</span></a>
+            
+        </div>
+        <script type="text/javascript">
+            $("span:contains('NEW Cutting Machine')").html("<a style='color: red;'>NEW</a> Cutting Machine");
+            $("span:contains('NÝTT Afskurðarvél')").html("<a style='color: red;'>NÝTT</a> Afskurðarvél");
+
+            buttonsLength = 0;
+            numberOfButtons = 0;
+            firstIs = false;
+            middleIs = false;
+            endIs = false;
+            firstOnIs = false;
+            middleOnIs = false;
+            endOnIs = false;
+            
+            x = getElementsByClassName("first");
+            if (x.length > 0) {
+                buttonsLength = buttonsLength + x[0].offsetWidth;
+                numberOfButtons = 1;
+                firstIs = true;
+            }
+            
+            x = getElementsByClassName("firstOn");
+            if (x.length > 0) {
+                buttonsLength = buttonsLength + x[0].offsetWidth;
+                numberOfButtons = numberOfButtons + 1;
+                firstOnIs = true;
+            }
+            
+            x = getElementsByClassName("middle");
+            if (x.length > 0) {
+                middleIs = true;
+                for (y in x) {
+                    buttonsLength = buttonsLength + x[y].offsetWidth;
+                    numberOfButtons = numberOfButtons + 1;
+                }
+            }
+            
+            x = getElementsByClassName("middleOn");
+            if (x.length > 0) {
+                buttonsLength = buttonsLength + x[0].offsetWidth;
+                numberOfButtons = numberOfButtons + 1;
+                middleOnIs = true;
+            }
+
+            x = getElementsByClassName("end");
+            if (x.length > 0) {
+                buttonsLength = buttonsLength + x[0].offsetWidth;
+                numberOfButtons = numberOfButtons + 1;
+                endIs = true;
+            }
+            
+            x = getElementsByClassName("endOn");
+            if (x.length > 0) {
+                buttonsLength = buttonsLength + x[0].offsetWidth;
+                numberOfButtons = numberOfButtons + 1;
+                endOnIs = true;
+            }
+            
+            spaceOrWidth = (900 - buttonsLength) / numberOfButtons;
+            spaceOrWidth = Math.floor(spaceOrWidth);
+            
+            var bn = BrowserDetect.browser;
+            if(bn == "Explorer") {
+                var nb = BrowserDetect.version;
+                if(nb == 6) {
+                    ie6 = true;
+                } else {
+                    ie6 = false;
+                }
+            } else {
+                ie6 = false;
+            }
+            
+            var sButtonsLength = 0;
+            if (ie6 == false) {
+                if (firstIs == true) {
+                    x = getElementsByClassName("first");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth - 12) + "px";
+                    sButtonsLength = parseInt(x[0].style.width) + 12;
+                }
+                
+                if (firstOnIs == true) {
+                    x = getElementsByClassName("firstOn");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth - 12) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width) + 12;
+                }
+    
+                if (middleIs == true) {
+                    x = getElementsByClassName("middle");
+                    for (y in x) {
+                        x[y].style.width = String(x[y].offsetWidth + spaceOrWidth - 12) + "px";
+                        sButtonsLength = sButtonsLength + parseInt(x[y].style.width) + 12;
+                    }
+                }
+                
+                if (middleOnIs == true) {
+                    x = getElementsByClassName("middleOn");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth - 12) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width) + 12;
+                }
+                
+                if (endIs == true) {
+                    x = getElementsByClassName("end");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth - 12) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width) + 12;
+                }
+                
+                if (endOnIs == true) {
+                    x = getElementsByClassName("endOn");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth - 12) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width) + 12;
+                }
+            } else {
+                if (firstIs == true) {
+                    x = getElementsByClassName("first");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth) + "px";
+                    sButtonsLength = parseInt(x[0].style.width);
+                }
+                
+                if (firstOnIs == true) {
+                    x = getElementsByClassName("firstOn");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width);
+                }
+    
+                if (middleIs == true) {
+                    x = getElementsByClassName("middle");
+                    for (y in x) {
+                        x[y].style.width = String(x[y].offsetWidth + spaceOrWidth) + "px";
+                        sButtonsLength = sButtonsLength + parseInt(x[y].style.width);
+                    }
+                }
+                
+                if (middleOnIs == true) {
+                    x = getElementsByClassName("middleOn");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width);
+                }
+                
+                if (endIs == true) {
+                    x = getElementsByClassName("end");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width);
+                }
+                
+                if (endOnIs == true) {
+                    x = getElementsByClassName("endOn");
+                    x[0].style.width = String(x[0].offsetWidth + spaceOrWidth) + "px";
+                    sButtonsLength = sButtonsLength + parseInt(x[0].style.width);
+                }
+            }
+            
+            if (ie6 == false) {
+                sSpaceOrWidth = 900 - sButtonsLength;
+            } else {
+                sSpaceOrWidth = 900 - sButtonsLength - 3;
+            }
+            x = getElementsByClassName("endOn");
+            if (x.length > 0) {
+                x[0].style.width = String(parseInt(x[0].style.width) + sSpaceOrWidth) + "px";
+            } else {
+                x = getElementsByClassName("end");
+                x[0].style.width = String(parseInt(x[0].style.width) + sSpaceOrWidth) + "px";
+            }
+        </script>
+        
+        
+        <div id="content">
+            
+<div id="box1">
+    <img src="/neptunus_media/img/spages/title1_____________.jpg" class="title" style="height:12px; width:169px;" />
+    <p>Todas las redes de Neptunus son premontadas sobre tubos. Hay varias opciones para pedir las redes, ver el texto abajo a la derecha. Por favor, no dude en enviarnos una pregunta, si tiene alguna. Las redes son hechas en China y Tailandia con la más alta calidad en el negocio de la pesca.</p>
+    <div id="netsVideoC">
+		<!--<div id="myAlternativeContent">
+            <a href="http://www.adobe.com/go/getflashplayer"><img src="/sameDomain6/netsF.jpg" /></a>
+		</div>-->
+	<video id="player" style="--plyr-color-main: #93bbc7; outline: none; margin-bottom: -5px; width: 270px; height: 152px;" id="player" width="270px" height="152px" data-poster="/sameDomain6/nets.jpg" playsinline controls>
+	  <source src="/neptunus_media/video/spages/netsnew_2.mp4.m4v" type="video/mp4" />
+	</video>
+    </div>
+    <p>Este vídeo muestra cómo la combinación de la línea de montaje y los nudos mantienen la red en su lugar.</p>
+
+    <img src="/neptunus_media/img/spages/netsImage2____.jpg" class="netIMG" style="height:152px; width:270px;" />
+    <p>Cuando la red es extendida bajo el agua las mallas entre los nudos toman la presión en conjunto, en lugar de cada una aislada.</p>
+</div>
+            
+<script type="text/javascript">
+var player = new Plyr('#player', {fullscreen: {enabled: false}});
+</script>
+
+
+<div id="box2">
+    <img src="/neptunus_media/img/spages/netsImage1.jpg" style="height:179px; width:560px;" />
+    <img src="/neptunus_media/img/spages/title2.jpg" class="title2" style="height:24px; width:312px;" />
+    <img class="image3" src="/neptunus_media/img/spages/netsImage2___.jpg" style="height:121px; width:208px;" />
+    <ol>
+        <li>Tamaño de cuerda y el tipo de cuerda, multi, multimono, y monofilamento.</li>
+        <li>Tamaño de malla SQ (nudo a nudo) o ST (malla completamente estirada).</li>
+        <li>Profundidad del tejido en las mallas.</li>
+        <li>Longitud del tejido extendido en metros o yardas o por cantidad de mallas.</li>
+        <li>Con línea lateral tejida sobre los lados de las redes, con lazadas arriba y abajo en los dos extremos, o no.</li>
+    </ol>
+    PARA EL PREMONTAJE DE REDES NECESITAMOS LA INFORMACIÓN ADICIONAL QUE SE DETALLA A CONTINUACIÓN:
+    <img class="image4" src="/neptunus_media/img/spages/netsImage4___.jpg" style="height:97px; width:150px;" />
+    <img class="image5" src="/neptunus_media/img/spages/netsImage5___.jpg" style="height:97px; width:150px;" />
+    <ol start=6>
+        <li>Longitud de lazadas requerida, superior e inferior (fondo).</li>
+        <li>Longitud de la cuerda sobre la que va montada la red, superior e inferior (puede ser diferente).</li>
+        <li>Distancia entre sujeciones (lazadas) sobre las cuerdas, superior e inferior, la cantidad de mallas sueltas entre las lazadas, superior e inferior.</li>
+        <li>Diámetro de la cuerda, superior e inferior, con o sin empalmes.</li>
+    </ol>
+    <p>PARA REDES DE ARRASTRE: La misma información que los puntos  1-9 para los 3 paneles. Es posible disponer de una cuerda o cuerdas a través de cada malla de arriba a abajo en la línea de montaje (ver dibujo), con cualquier distancia y cantidad de cuerdas. Existe también la posibilidad de tener las lazadas en diferentes longitudes desde la cuerda de fondo hasta la red, para evitar los cangrejos y otras especies de fondo.</p>
+</div>
+
+            
+        </div>
+        
+        <div id="footer" style="">
+            
+                Neptunus ehf. - Cuxhavengötu 1 - 220 Hafnarfirði - 101 Reykjavík – Islandia(Iceland) - Tel:+354-552-1380 - Móvil:+354-864-4343 - Correo electrónico: xneptun@simnet.is
+            
+            <span style="visibility: hidden">
+                ####################################################################
+            </span>
+        </div>
+    </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5377413-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

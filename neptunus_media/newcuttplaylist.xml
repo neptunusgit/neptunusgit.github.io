@@ -1,0 +1,33 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"> 
+	<channel>
+		<title>New Cutting Playlist</title>
+
+		<item>
+			<title>1</title>
+
+			<description>1</description>
+			<media:credit role="author">Neptunus</media:credit>
+			<media:content url="/neptunus_media/video/gallery/newcutt1.mp4" type="video/mp4" duration="33"></media:content></item>
+
+		<item>
+			<title>2</title>
+			
+			<description>2</description>
+			<media:credit role="author">Neptunus</media:credit>
+			<media:content url="/neptunus_media/video/gallery/newcutt2.mp4" type="video/mp4" duration="33"></media:content></item>
+		
+		<item>
+			<title>3</title>
+			
+			<description>3</description>
+			<media:credit role="author">Neptunus</media:credit>
+			<media:content url="/neptunus_media/video/gallery/newcutt3.mp4" type="video/mp4" duration="33"></media:content></item>
+
+		<item>
+			<title>4</title>
+			
+			<description>4</description>
+			<media:credit role="author">Neptunus</media:credit>
+			<media:content url="/neptunus_media/video/gallery/newcutt4.mp4" type="video/mp4" duration="33"></media:content></item>
+	</channel>
+</rss>

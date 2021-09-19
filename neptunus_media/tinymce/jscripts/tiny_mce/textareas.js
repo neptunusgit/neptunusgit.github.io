@@ -1,0 +1,21 @@
+tinyMCE.init({
+        mode : "exact",
+        elements: "id_text.0.text, id_text.1.text, id_text.2.text, id_text.3.text, id_text.4.text, id_text.5.text, id_text.6.text, id_text.7.text, id_text.8.text, id_text.9.text, id_text.10.text, id_text.11.text, id_text.12.text, id_text.13.text, id_text.14.text, id_text.15.text, id_text.16.text, id_text.17.text, id_text.18.text, id_text.19.text, id_text.20.text, id_text.21.text, id_text.22.text, id_text.23.text, id_text.24.text, id_text.25.text, id_text.26.text, id_text.27.text, id_text.28.text, id_text.29.text, id_text.30.text, id_text.31.text, id_text.32.text, id_text.33.text, id_text.34.text, id_text.35.text, id_text.36.text, id_text.37.text, id_text.38.text, id_text.39.text, id_text.40.text, id_text.41.text, id_text.42.text, id_text.43.text, id_text.44.text, id_text.45.text, id_text.46.text, id_text.47.text, id_text.48.text, id_text.49.text, id_text.50.text, id_text.51.text, id_text.52.text, id_text.53.text, id_text.54.text, id_text.55.text, id_text.56.text, id_text.57.text, id_text.58.text, id_text.59.text, id_text.60.text, id_text.61.text, id_text.62.text, id_text.63.text, id_text.64.text, id_text.65.text, id_text.66.text, id_text.67.text, id_text.68.text, id_text.69.text, id_text.70.text, id_text.71.text, id_text.72.text, id_text.73.text, id_text.74.text, id_text.75.text, id_text.76.text, id_text.77.text, id_text.78.text, id_text.79.text, id_text.80.text, id_text.81.text, id_text.82.text, id_text.83.text, id_text.84.text, id_text.85.text, id_text.86.text, id_text.87.text, id_text.88.text, id_text.89.text, id_text.90.text, id_text.91.text, id_text.92.text, id_text.93.text, id_text.94.text, id_text.95.text, id_text.96.text, id_text.97.text, id_text.98.text, id_text.99.text, id_text.100.text, id_text.101.text, id_text.102.text, id_text.103.text, id_text.104.text, id_text.105.text, id_text.106.text, id_text.107.text, id_text.108.text, id_text.109.text, id_text.110.text, id_text.111.text, id_text.112.text, id_text.113.text, id_text.114.text, id_text.115.text, id_text.116.text, id_text.117.text, id_text.118.text, id_text.119.text, id_text.120.text, id_text.121.text, id_text.122.text, id_text.123.text, id_text.124.text, id_text.125.text, id_text.126.text, id_text.127.text, id_text.128.text, id_text.129.text, id_text.130.text, id_text.131.text, id_text.132.text, id_text.133.text, id_text.134.text, id_text.135.text, id_text.136.text, id_text.137.text, id_text.138.text, id_text.139.text, id_text.140.text, id_text.141.text, id_text.142.text, id_text.143.text, id_text.144.text, id_text.145.text, id_text.146.text, id_text.147.text, id_text.148.text, id_text.149.text, id_text1, id_text2, id_text3, id_text4, id_text5, id_text6, id_text7, id_text8",
+        theme : "advanced",
+        plugins : "advimage,advlink,insertdatetime,searchreplace, simplepaste, safari",
+        theme_advanced_buttons1_add : "fontselect,fontsizeselect",
+        theme_advanced_buttons2_add : "separator,insertdate,inserttime,separator,forecolor,backcolor, seperator, pastetext, pasteword",
+        theme_advanced_buttons2_add_before: "search,replace,separator",
+        theme_advanced_buttons3 : "",
+        theme_advanced_toolbar_location : "top",
+        theme_advanced_toolbar_align : "left",
+        theme_advanced_path_location : "bottom",
+        plugin_insertdate_dateFormat : "%Y-%m-%d",
+        plugin_insertdate_timeFormat : "%H:%M:%S",
+        extended_valid_elements : "a[name|href|target|title|onclick],img[class|src|border=0|alt|title|hspace|vspace|width|height|align|onmouseover|onmouseout|name],hr[class|width|size|noshade],font[face|size|color|style],span[class|align|style],blockquote[class],textarea[name|class|cols|rows]",
+        theme_advanced_resize_horizontal : false,
+        theme_advanced_resizing : true,
+        remove_linebreaks: false,
+        width: "700",
+        height: "500"
+});
